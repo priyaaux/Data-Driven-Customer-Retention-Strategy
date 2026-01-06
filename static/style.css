@@ -105,3 +105,19 @@ button:hover {
         transform: translateY(0);
     }
 }
+.sample-btn {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.sample-btn:hover {
+    background: #222;
+}
