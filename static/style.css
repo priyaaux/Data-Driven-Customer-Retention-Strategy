@@ -1,0 +1,107 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* Page background */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Main card */
+.container {
+    width: 460px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #1d2671;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs & dropdowns */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 18px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+    border-color: #c33764;
+    box-shadow: 0 0 6px rgba(195, 55, 100, 0.4);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #79005E, #c33764);
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 08px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(195, 55, 100, 0.4);
+}
+
+/* Result box */
+.result {
+    margin-top: 25px;
+    padding: 18px;
+    border-radius: 10px;
+    background: #f2f7ff;
+    border-left: 5px solid #1d2671;
+}
+
+/* Result text */
+.result h3 {
+    margin: 0 0 8px 0;
+    color: #c33764;
+}
+
+.result p {
+    margin: 5px 0;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
