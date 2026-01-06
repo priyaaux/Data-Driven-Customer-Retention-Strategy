@@ -122,6 +122,18 @@ Data-Driven-Customer-Retention-Strategy/
 ├── Procfile
 └── README.md
 
+- Overview Of Project Structure:
+data/               → Dataset used for churn analysis  
+model/              → Trained machine learning model and scaler  
+static/             → Static files for Flask app (CSS, images)  
+templates/          → HTML templates for the web application  
+tableau_dashboard/  → Tableau dashboard file and preview  
+app.py              → Flask application for churn prediction  
+train_model.py      → Model training and preprocessing script  
+requirements.txt    → Python dependencies  
+Procfile            → Deployment configuration for Render  
+README.md           → Project documentation
+
 ----------------------------------------------------------------------------------------------
 
 🚀 How to Run Locally:
