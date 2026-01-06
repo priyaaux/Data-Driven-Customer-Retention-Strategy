@@ -97,25 +97,28 @@ The Tableau dashboard highlights:
 ----------------------------------------------------------------------------------------------
 
 📂 Project Structure
-Customer-Retention-Strategy/
+Data-Driven-Customer-Retention-Strategy/
 │
-├── app.py
-├── train_model.py
-├── requirements.txt
-├── Procfile
-├── Telco_Cusomer_Churn.csv
+├── data/
+│   └── Telco_Cusomer_Churn.csv
 │
 ├── model/
 │   ├── churn_model.pkl
 │   └── scaler.pkl
 │
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
 ├── static/
-│   └── style.css
+│   └── style.css 
 │
+├── templates/
+│   └── index.html
+│
+├── tableau_dashboard/
+│   ├── Customer_Retention_Dashboard.png
+│   
+├── app.py
+├── train_model.py
+├── requirements.txt
+├── Procfile
 └── README.md
 
 ----------------------------------------------------------------------------------------------
