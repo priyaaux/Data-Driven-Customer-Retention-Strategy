@@ -89,7 +89,8 @@ The Tableau dashboard highlights:
 
 🌐 Live Application:
 
-🔗 Live App: Deployment in progress (Render)
+🔗 Live App: Deployment in progress (Render).
+
 🔗 Tableau Dashboard: (https://public.tableau.com/app/profile/priya.more7205/viz/CustomerRetentionStrategy/CustomerChurnAnalysisRetentionInsights?publish=yes)
 
 🔗 You can also view this project on my linkedin account:(https://www.linkedin.com/in/priya-more-61a967259/)
@@ -97,26 +98,41 @@ The Tableau dashboard highlights:
 ----------------------------------------------------------------------------------------------
 
 📂 Project Structure
-Customer-Retention-Strategy/
+Data-Driven-Customer-Retention-Strategy/
 │
-├── app.py
-├── train_model.py
-├── requirements.txt
-├── Procfile
-├── Telco_Cusomer_Churn.csv
+├── data/
+│   └── Telco_Cusomer_Churn.csv
 │
 ├── model/
 │   ├── churn_model.pkl
 │   └── scaler.pkl
 │
-├── templates/
-│   ├── index.html
-│   └── result.html
-│
 ├── static/
-│   └── style.css
+│   └── style.css 
 │
+├── templates/
+│   └── index.html
+│
+├── tableau_dashboard/
+│   ├── Customer_Retention_Dashboard.png
+│   
+├── app.py
+├── train_model.py
+├── requirements.txt
+├── Procfile
 └── README.md
+
+- Overview Of Project Structure:
+data/               → Dataset used for churn analysis  
+model/              → Trained machine learning model and scaler  
+static/             → Static files for Flask app (CSS, images)  
+templates/          → HTML templates for the web application  
+tableau_dashboard/  → Tableau dashboard file and preview  
+app.py              → Flask application for churn prediction  
+train_model.py      → Model training and preprocessing script  
+requirements.txt    → Python dependencies  
+Procfile            → Deployment configuration for Render  
+README.md           → Project documentation
 
 ----------------------------------------------------------------------------------------------
 
