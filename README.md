@@ -89,7 +89,7 @@ The Tableau dashboard highlights:
 
 🌐 Live Application:
 
-🔗 Live App: Deployment in progress (Render).
+🔗 Live App: (https://customer-churn-prediction-app-30vw.onrender.com)
 
 🔗 Tableau Dashboard: (https://public.tableau.com/app/profile/priya.more7205/viz/CustomerRetentionStrategy/CustomerChurnAnalysisRetentionInsights?publish=yes)
 
