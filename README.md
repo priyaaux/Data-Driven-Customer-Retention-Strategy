@@ -89,7 +89,8 @@ The Tableau dashboard highlights:
 
 🌐 Live Application:
 
-🔗 Live App: Deployment in progress (Render)
+🔗 Live App: Deployment in progress (Render).
+
 🔗 Tableau Dashboard: (https://public.tableau.com/app/profile/priya.more7205/viz/CustomerRetentionStrategy/CustomerChurnAnalysisRetentionInsights?publish=yes)
 
 🔗 You can also view this project on my linkedin account:(https://www.linkedin.com/in/priya-more-61a967259/)
